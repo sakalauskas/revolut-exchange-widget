@@ -1,0 +1,24 @@
+.LiveRate {
+    position: relative;
+}
+
+.bubble {
+    border: 2px solid #eee;
+    border-radius: 15px;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    position: absolute;
+    color: #0c80ef;
+    top: -14px;
+    background: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 140px;
+}
+
+.icon {
+    width: 10px;
+    margin-right: 5px;
+}

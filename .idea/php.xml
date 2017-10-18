@@ -252,6 +252,7 @@
       <path value="$PROJECT_DIR$/../Qualia/vendor/phar-io/manifest" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings custom_loader_path="/Users/laurynassakalauskas/Code/Qualia/vendor/autoload.php" />

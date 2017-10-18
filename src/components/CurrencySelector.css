@@ -1,0 +1,37 @@
+.CurrencySelector {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px;
+    height: 20vh;
+    display: block;
+}
+
+.CurrencySelector select {
+    border: 0;
+    font-size: 50px;
+    font-weight: 300;
+    background: transparent;
+    outline: 0;
+    appearance: none;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    right: 0;
+    min-width: 140px;
+}
+
+.arrow {
+    width: 30px;
+    height: 40px;
+    padding: 20px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 100px;
+    pointer-events: none;
+}
+
+.arrow img {
+    width: 100%;
+}

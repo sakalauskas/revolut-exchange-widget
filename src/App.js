@@ -1,18 +1,27 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InputPanel from "./components/InputPanel";
+import OutputPanel from "./components/OutputPanel";
+import ConnectedLiveRate from "./components/ConnectedLiveRate";
+import Button from "./components/Button";
+import InputCurrencySelector from "./components/InputCurrencySelector";
+import OutputCurrencySelector from "./components/OutputCurrencySelector";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <h1 className="App-title">Welcome to React</h1>
-                </header>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
+                <InputCurrencySelector />
+                <InputPanel />
+
+                <ConnectedLiveRate />
+
+                <OutputCurrencySelector />
+                <OutputPanel />
+
+                <div className="text-center sticky-button">
+                    <Button onClick={() => alert('You got the money!')}>Exchange</Button>
+                </div>
             </div>
         );
     }
