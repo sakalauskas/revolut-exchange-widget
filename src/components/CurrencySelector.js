@@ -21,7 +21,7 @@ export default class CurrencySelector extends Component {
                     })}
                 </select>
                 <div className="arrow">
-                    <img src={angle} />
+                    <img src={angle} alt="arrow" />
                 </div>
             </div>
         )

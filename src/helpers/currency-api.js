@@ -10,6 +10,8 @@ export const fetchCurrencies = () => {
             // as if it would be a live FX rate
             Object.keys(rates).map(currency => rates[currency] += Math.random() / 20);
 
+            console.log('Fetched new FX rates');
+
             return rates;
         });
 }

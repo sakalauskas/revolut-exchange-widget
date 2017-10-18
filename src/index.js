@@ -37,8 +37,7 @@ const store = createStore(
 store.dispatch(updateRates());
 setInterval(() => {
     store.dispatch(updateRates());
-    console.log(store.getState());
-}, 3 * 1000) // refresh every 10 secs
+}, 10 * 1000) // refresh every 10 secs
 
 ReactDOM.render(
     <Provider store={store}>

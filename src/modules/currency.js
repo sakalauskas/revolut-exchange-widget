@@ -33,7 +33,7 @@ const convert = ({rates, values, currency, selected}) => {
         selectedValue = values[selected];
 
     const converted = (resultRate / selectedRate * selectedValue).toFixed(2);
-    console.log(writeTo, converted);
+
     // Convert if input value is set
     let ob = {};
     ob[writeTo] = converted !== "NaN" ? converted : 0.00;

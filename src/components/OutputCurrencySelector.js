@@ -1,5 +1,5 @@
 import {connect} from "react-redux";
-import {changeInputCurrency, changeOutputCurrency, SELECTIONS, updateInput} from "../modules/currency";
+import {changeOutputCurrency} from "../modules/currency";
 import CurrencySelector from "./CurrencySelector";
 
 const mapStateToProps = state => {
