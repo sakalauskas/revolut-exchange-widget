@@ -1,6 +1,6 @@
 
 export const fetchCurrencies = () => {
-    return fetch('http://api.fixer.io/latest')
+    return fetch('https://api.fixer.io/latest')
         .then(r => r.json())
         .then(({rates}) => {
             rates.EUR = 1;
@@ -14,4 +14,4 @@ export const fetchCurrencies = () => {
 
             return rates;
         });
-}
+};

@@ -4,10 +4,10 @@ A React + Redux app bootstrapped with [Create React App](https://github.com/face
 
 ![Screenshot of Revolut Exchange Widget](screenshot.png)
 
+
 ### Live Demo
 
-There will be details here...
-
+[https://sakalauskas.github.io/revolut-exchange-widget/](https://sakalauskas.github.io/revolut-exchange-widget/)
 #### Building the project
 
 In the project directory, you can run:
