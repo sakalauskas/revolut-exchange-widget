@@ -1,6 +1,6 @@
 ### Revolut Exchange Widget
 
-A React + Redux app bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) to copy the functionality of Revolut Android app exchange activity. Uses [fixer.io](http://fixer.io) to fetch the latest FX rates.
+A React + Redux app bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) to replicate the functionality of Revolut Android app's, currency exchange activity. Uses [fixer.io](http://fixer.io) to fetch the latest FX rates every 10 seconds with random adjustment of the rate by 0.00-0.05 to simulate real-live changes.
 
 ![Screenshot of Revolut Exchange Widget](screenshot.png)
 
